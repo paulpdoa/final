@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}  
+h1{
+    text-align:center;
+    margin-bottom:50px;
+    padding-top:200px;
+    color:#66BFBF;
+    font-family: 'Sacramento',cursive;
+    font-size:5.625rem
+}
+h2{
+    text-align:center;
+    margin-bottom:50px;
+
+    color:#66bfbf;
+    font-family: 'Montserrat',sans-serif;
+    font-size:2.5rem;
+    font-style:italic;
+}
+h3{
+    color:#11999e;
+    font-family: 'Montserrat',sans-serif;
+    font-style:italic;
+}
+hr{
+
+        border: dotted #EAF6F6 6px;
+        border-bottom:none;
+        width:4%;
+        margin: 100px auto;
+    
+}
+#tophead{
+    background-color:#e4f9f5;
+    margin:0 auto;
+    padding:0;
+    max-width:100%;
+}
+#bottomhead{
+    background-color:skyblue;
+    padding-top:50px;
+
+}
+.aboutsir{
+    text-align:center;
+}
+.cloud1{
+    float:right;
+    margin-right:18%;
+    padding-top:100px;
+    
+}
+.cloud2{
+    margin-left:15%;
+    margin-bottom:100px;
+
+    display:fixed;
+}
+
+.sirimg{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;   
+    margin-top:100px;
+    margin-bottom:50px;
+
+    width:200px;
+}
+.getin{
+    text-align: center;
+    margin-bottom:50px;
+    
+}
+
+.copyright{
+    height:50px;
+    margin-top:20px;
+    text-align:center;
+
+    color:white;
+}
+.submit{
+    color:white;
+    background: linear-gradient(to bottom, #ccffff 0%, #3366ff 100%);
+    width:100px;
+    height:45px;
+    margin-bottom:50px;
+    border-radius: 5px;
+    font-style: italic,bold;
+    border-style:none;
+    font-family: 'Montserrat',sans-serif;
+    cursor:pointer;
+}
+.skillandit{
+    margin: 0 auto;
+    padding: 0;
+    max-width:900px;
+}
+.skillandit h1{
+    color:#66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-size:2.425rem;
+	font-weight: normal;
+    padding-bottom: 70px;
+}
+.skillandit h2{
+    color:#2a9ea3;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+
+}
+.skillandit p{
+    line-height:1.80;
+    font-family:serif;
+    
+}
+.skillandit h3,.skillandit p{
+    text-align:left;
+    margin-left:200px;
+    
+    
+}
+.skillandit .skillimg{
+    float:left;
+    width:200px;
+    margin-right:20px;
+    padding:0;
+}
+.skillandit .itimg{  
+    float:right;
+    margin-left:20px;
+    width:200px;
+    padding:0;
+}
+.submit:active{
+box-shadow:0 5px #666;
+transform:translateY(4px)
+}
+.submit:hover{
+    background-color:#3e8e41;
+}
+.left{
+    margin-left:200px;
+}
+.nav{
+    list-style-type: none;
+    
+    margin-bottom:50px;
+    font-weight:1000;
+    
+    overflow: hidden;
+    
+    text-align: center;
+    font-style:italic;
+    font-family: 'Montserrat',sans-serif;
+}
+.nav li{
+    display:inline-block;
+    
+}
+.nav1 a{
+    text-decoration: none;
+    color:#2a9ea3;
+    font-weight: bold;
+    padding:14px 16px;
+}
+.nav1 a:hover{
+    color:whitesmoke;
+}
+@media only screen and(max-width:600px){
+
+
+
+}
